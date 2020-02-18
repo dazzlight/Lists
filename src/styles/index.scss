@@ -1,12 +1,13 @@
 $body-color: #7136cf;
 
-body {
+body,
+ul {
   color: $body-color;
   font-family: sans-serif;
 }
 table {
   border-collapse: collapse;
-  color: black;
+  color: bla;
 }
 tr,
 td,
