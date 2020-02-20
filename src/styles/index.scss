@@ -1,13 +1,58 @@
 $body-color: #7136cf;
 
-body,
-ul {
+body {
   color: $body-color;
   font-family: sans-serif;
 }
+header {
+  text-align: center;
+  color: #c227e9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 2px solid;
+  padding: 10px;
+  margin: 10px;
+}
+header a {
+  color: #c227e9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: overline;
+}
+main {
+  float: left;
+  width: 78%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 5px double #7136cf;
+}
+aside {
+  float: right;
+  width: 20%;
+  font-family: "Courier New", Courier, monospace;
+  color: #391183;
+  border: 1px solid;
+  padding: 1px 5px;
+}
+footer {
+  clear: both;
+  border: 1px solid rgb(68, 95, 214);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+}
+article {
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+figure {
+  background-color: lavender;
+  text-align: center;
+}
 table {
   border-collapse: collapse;
-  color: bla;
+  color: black;
 }
 tr,
 td,
@@ -17,4 +62,13 @@ th {
 
 ol {
   color: #138b81;
+}
+.timetableSection tfoot {
+  color: peru;
+}
+.colorTableSection {
+  background-color: khaki;
+}
+.imageSection a {
+  text-decoration: none;
 }
