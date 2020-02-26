@@ -29,10 +29,20 @@ nav {
 
 .text-center {
   text-align: center;
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
 }
 
 nav a {
   color: #f1f2ee;
+  text-decoration: none;
 }
 
 main {
@@ -63,9 +73,14 @@ h3,
 a {
   color: #263d42;
 }
+
+p {
+  text-indent: 20px;
+}
 article h3 {
   color: #80ced7;
 }
+
 figure img {
   width: 300px;
 }
