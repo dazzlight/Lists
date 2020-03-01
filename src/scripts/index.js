@@ -1,16 +1,31 @@
 import "../styles/index.scss";
 
-const a = 7;
-const b = 3;
-const plus = a + b;
-const minus = a - b;
-const multiply = a * b;
-const divide = a / b;
+const user = {
+  name: "Adelina",
+  lastName: "Borodina",
+  age: 15,
+  dateOfBirth: "08.04.2004",
+  height: 169,
+  haveAnAnimal: true,
+  favoriteFood: ["lasagna", " barbecue", " Napoleon cake"],
+  getInformation: function() {
+    console.log(
+      "Name",
+      this.name + ", Lastname",
+      this.lastName + ", Date of birth",
+      this.dateOfBirth
+    );
+  }
+};
 
-console.log(plus);
-console.log(minus);
-console.log(multiply);
-console.log(divide);
+console.log(user.name);
+console.log(user.lastName);
+console.log(user.age);
+console.log(user.dateOfBirth);
+console.log(user.height);
+console.log(user.haveAnAnimal);
+console.log(user.favoriteFood[0] + user.favoriteFood[1] + user.favoriteFood[2]);
+user.getInformation();
 
 // console.log("Desktop -> Electron");
 // console.log("Smartphone & Tablet -> Cordova");
