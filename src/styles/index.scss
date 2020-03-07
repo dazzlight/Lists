@@ -27,16 +27,16 @@ nav {
   font-size: 15px;
 }
 
-.text-center {
+.textCenter {
   text-align: center;
   text-transform: capitalize;
 }
 
-.text-uppercase {
+.textUppercase {
   text-transform: uppercase;
 }
 
-.text-capitalize {
+.textCapitalize {
   text-transform: capitalize;
 }
 
@@ -111,27 +111,27 @@ th {
   height: 80px;
 }
 
-.color-blue {
+.colorBlue {
   background-color: $table-blue;
 }
 
-.color-green {
+.colorGreen {
   background-color: $table-green;
 }
 
-.color-pink {
+.colorPink {
   background-color: $table-pink;
 }
 
-.color-yellow {
+.colorYellow {
   background-color: $table-yellow;
 }
 
-.color-red {
+.colorRed {
   background-color: $table-red;
 }
 
-.color-violet {
+.colorViolet {
   background-color: $table-violet;
 }
 
@@ -148,4 +148,12 @@ th {
   border: 1px solid black;
   padding: 20px 10px;
   margin: 5px;
+}
+
+section {
+  align-content: center;
+}
+.videoEdit {
+  width: 450px;
+  height: 250px;
 }
