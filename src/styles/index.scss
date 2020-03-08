@@ -96,6 +96,15 @@ th {
   border: 1px solid black;
 }
 
+button {
+  width: 150px;
+}
+
+#talkingDiv {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+}
 #serifFont {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -176,4 +185,8 @@ th {
 .videoEdit {
   width: 450px;
   height: 250px;
+}
+
+#changeThatImage {
+  width: 250px;
 }

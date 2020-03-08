@@ -9,7 +9,7 @@
     <title>My site</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
-  <body>
+  <body onload="onPageLoaded()">
     <header class="textCenter">
       <span>ProFrontend</span>
     </header>
@@ -20,6 +20,26 @@
     </nav>
 
     <main>
+      <section class="jsTestSection">
+        <button onclick="changeImage()">Change image below me!</button>
+        <br />
+        <img
+          id="changeThatImage"
+          src="https://k-serial.com/wp-content/uploads/2020/02/ATEEZ_lightstick_CROP.png"
+          alt="Lightiny"
+        />
+        <br />
+        <div id="talkingDiv" onmouseover="overMouse()" onmouseout="outMouse()">
+          Hello!
+        </div>
+        <br />
+        <input
+          type="text"
+          onchange="console.log('You have changed text!')"
+          onkeydown="keyDown()"
+          onkeyup="keyUp()"
+        />
+      </section>
       <section id="articles">
         <h1 class="textCenter textCapitalize">My first HTML page</h1>
         <article>
