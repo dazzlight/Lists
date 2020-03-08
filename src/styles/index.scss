@@ -96,6 +96,29 @@ th {
   border: 1px solid black;
 }
 
+#serifFont {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+#sansSerifFont {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+// i.fas.fa-lightbulb {
+//   font-size: 50px;
+// }
+
+#monospaceFont {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+}
+
+.vwText {
+  font-size: 5vw;
+}
+
 .colorTable {
   width: 800px;
   height: 600px;
