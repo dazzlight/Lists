@@ -25,6 +25,35 @@ div > img {
   width: 400px;
 }
 
+ol a:link {
+  color: #462fa8;
+}
+
+ol a:visited {
+  color: #271141;
+}
+
+ol a:hover {
+  color: cyan;
+}
+
+ol a:active {
+  color: mediumvioletred;
+}
+
+.highlight > a {
+  display: none;
+}
+
+.highlight:hover > a {
+  display: inline;
+}
+
+.highlight:hover {
+  background-color: plum;
+  color: cornsilk;
+}
+
 .divForText {
   width: 400px;
   border: 1px solid black;
