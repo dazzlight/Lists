@@ -10,6 +10,17 @@ body {
   color: #45376b;
 }
 
+header {
+  background-color: #423a52;
+  text-align: center;
+  padding: 15px;
+  position: sticky;
+  top: 0px;
+}
+
+nav > a {
+  color: azure;
+}
 div > img {
   width: 400px;
 }
@@ -17,12 +28,6 @@ div > img {
 .divForText {
   width: 400px;
   border: 1px solid black;
-}
-.navPositionSticky {
-  background-color: powderblue;
-  border: 1 px solid black;
-  position: sticky;
-  top: 0px;
 }
 
 .parentLine {
