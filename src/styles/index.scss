@@ -81,6 +81,26 @@ article h3 {
   color: #80ced7;
 }
 
+.olStyled > li {
+  color: darkolivegreen;
+}
+
+.olStyled > ul > li {
+  color: darkred;
+}
+
+.combinators > div {
+  background-color: darksalmon;
+}
+
+span + section {
+  background-color: darkseagreen;
+}
+
+span ~ div {
+  background-color: khaki;
+}
+
 figure img {
   width: 300px;
 }
