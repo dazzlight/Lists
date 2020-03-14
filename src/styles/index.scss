@@ -1,212 +1,54 @@
-$body-color: black;
-$table-blue: #8ca7ff;
-$table-green: #5dff2c;
-$table-pink: #dd1b8c;
-$table-yellow: #f3ff44;
-$table-red: #6d1818;
-$table-violet: #ad22ee;
+body,
+html {
+  height: 100%;
+}
 
 body {
-  color: $body-color;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 0px;
-  margin: 0px;
+  // display: flex;
+  justify-content: center;
+  // align-items: center;
+  color: #45376b;
 }
 
-header {
-  background-color: #8e6c88;
-  color: #f1f2ee;
-  padding: 15px;
-  font-size: 25px;
+div > img {
+  width: 400px;
 }
 
-nav {
-  background-color: #8e6c88;
-  color: #f1f2ee;
-  padding: 15px;
-  font-size: 15px;
-}
-
-.textCenter {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.textUppercase {
-  text-transform: uppercase;
-}
-
-.textCapitalize {
-  text-transform: capitalize;
-}
-
-nav a {
-  color: #f1f2ee;
-  text-decoration: none;
-}
-
-main {
-  float: left;
-  width: 70%;
-  border-right: 2px dotted #80ced7;
-  padding: 0 20px 15px;
-}
-
-aside {
-  float: right;
-  width: 25%;
-}
-
-footer {
-  clear: both;
-  background-color: #8e6c88;
-  padding: 15px;
-}
-
-article {
-  color: black;
-}
-
-h1,
-h2,
-h3,
-a {
-  color: #263d42;
-}
-
-p {
-  text-indent: 20px;
-}
-article h3 {
-  color: #80ced7;
-}
-
-.olStyled > li {
-  color: darkolivegreen;
-}
-
-.olStyled > ul > li {
-  color: darkred;
-}
-
-.combinators > div {
-  background-color: darksalmon;
-}
-
-span + section {
-  background-color: darkseagreen;
-}
-
-span ~ div {
-  background-color: khaki;
-}
-
-figure img {
-  width: 300px;
-}
-
-table {
-  border-collapse: collapse;
-  color: black;
-}
-
-tr,
-td,
-th {
+.divForText {
+  width: 400px;
   border: 1px solid black;
 }
-
-button {
-  width: 150px;
+.navPositionSticky {
+  background-color: powderblue;
+  border: 1 px solid black;
+  position: sticky;
+  top: 0px;
 }
 
-#talkingDiv {
-  border: 2px solid black;
-  width: 200px;
-  text-align: center;
-}
-#serifFont {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
+.parentLine {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
-#sansSerifFont {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: italic;
-}
-// i.fas.fa-lightbulb {
-//   font-size: 50px;
-// }
-
-#monospaceFont {
-  font-family: "Courier New", Courier, monospace;
-  font-variant: small-caps;
+.childIcon {
+  position: absolute;
+  background-color: white;
+  top: -10px;
+  left: 50%;
 }
 
-.vwText {
-  font-size: 5vw;
-}
-
-.colorTable {
-  width: 800px;
-  height: 600px;
-}
-
-.w-100px {
-  width: 100px;
-}
-.w-200px {
-  width: 200px;
-}
-.h-80px {
-  height: 80px;
-}
-
-.colorBlue {
-  background-color: $table-blue;
-}
-
-.colorGreen {
-  background-color: $table-green;
-}
-
-.colorPink {
-  background-color: $table-pink;
-}
-
-.colorYellow {
-  background-color: $table-yellow;
-}
-
-.colorRed {
-  background-color: $table-red;
-}
-
-.colorViolet {
-  background-color: $table-violet;
-}
-
-.timetableSection tfoot {
-  color: peru;
-}
-
-.imageSection a {
-  text-decoration: none;
-}
-#widthAndHeightTest {
-  width: 200px;
-  height: 300px;
+.parentImage {
+  width: 400px;
   border: 1px solid black;
-  padding: 20px 10px;
-  margin: 5px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
-.videoEdit {
-  width: 450px;
-  height: 250px;
-}
-
-#changeThatImage {
-  width: 250px;
+.childHeader {
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
