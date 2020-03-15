@@ -1,88 +1,75 @@
-body,
-html {
-  height: 100%;
+@import "~bootstrap/scss/bootstrap";
+@font-face {
+  font-family: NK57;
+  src: url("../assets/fonts/18888.ttf");
 }
 
+html,
 body {
-  // display: flex;
-  justify-content: center;
-  // align-items: center;
-  color: #45376b;
+  height: 100%;
+  background-color: #adadad;
+  line-height: 1;
+  color: #111111;
 }
 
-header {
-  background-color: #423a52;
-  text-align: center;
-  padding: 15px;
-  position: sticky;
-  top: 0px;
+p {
+  font-size: 16px;
+  color: #1d1d1d;
 }
 
-nav > a {
-  color: azure;
-}
-div > img {
-  width: 400px;
-}
-
-ol a:link {
-  color: #462fa8;
-}
-
-ol a:visited {
-  color: #271141;
-}
-
-ol a:hover {
-  color: cyan;
-}
-
-ol a:active {
-  color: mediumvioletred;
-}
-
-.highlight > a {
-  display: none;
-}
-
-.highlight:hover > a {
-  display: inline;
-}
-
-.highlight:hover {
-  background-color: plum;
-  color: cornsilk;
-}
-
-.divForText {
-  width: 400px;
-  border: 1px solid black;
-}
-
-.parentLine {
-  width: 100%;
+.bgphoto {
+  background: url("../assets/black-and-silver-camera-on-red-covered-books-3774045.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 75%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
-  top: 0px;
-  left: 0px;
+  background-size: cover;
 }
 
-.childIcon {
-  position: absolute;
+.NK57 {
+  font-family: NK57;
+}
+
+.color-white {
+  color: white;
+}
+
+.styledJumbotron {
+  margin: 2rem 0rem 0rem 5rem;
+  padding: 2rem 1rem 1rem 1rem;
+  width: 400px;
   background-color: white;
-  top: -10px;
-  left: 50%;
+  text-align: left;
 }
 
-.parentImage {
-  width: 400px;
-  border: 1px solid black;
-  position: relative;
-  top: 0px;
-  left: 0px;
+a:link {
+  color: #fcdf0a;
 }
 
-.childHeader {
+a:visited {
+  color: #111111;
+}
+
+a:hover {
+  color: #a01010;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.margin-h1 {
   position: absolute;
-  top: 50%;
-  left: 30%;
+  top: 30%;
+}
+
+.small-icon {
+  width: 30px;
+  height: 30px;
 }
